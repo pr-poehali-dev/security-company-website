@@ -43,11 +43,31 @@ const About = () => {
               человека на посту. Физическая охрана объектов необходима для
               минимизации рисков и усиления безопасности.
             </p>
-            <div className="bg-accent/10 border-l-4 border-accent p-4 rounded">
+            <div className="bg-accent/10 border-l-4 border-accent p-4 rounded mb-6">
               <p className="text-sm font-medium">
                 Мы гарантируем индивидуальный подход к каждому клиенту и высокое
                 качество предоставляемых услуг.
               </p>
+            </div>
+
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
+              <h4 className="font-semibold text-primary mb-3">
+                Руководство компании
+              </h4>
+              <div className="space-y-2 text-sm">
+                <div>
+                  <span className="font-medium">Учредитель:</span>
+                  <p className="text-muted-foreground">
+                    Федорова Надежда Жановна (с 4 мая 2011 года)
+                  </p>
+                </div>
+                <div>
+                  <span className="font-medium">Директор:</span>
+                  <p className="text-muted-foreground">
+                    Милюков Михаил Алексеевич (с 24 января 2022 года)
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 

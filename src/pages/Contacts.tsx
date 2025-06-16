@@ -7,27 +7,27 @@ const Contacts = () => {
   const contacts = [
     {
       icon: "Phone",
-      title: "Телефон",
-      info: "+7 (4822) 00-00-00",
+      title: "Телефоны",
+      info: "+7 482 336-42-73, +7 800 250-42-73",
       description: "Круглосуточно, без выходных",
     },
     {
       icon: "Mail",
       title: "Email",
-      info: "info@zashchita-tver.ru",
+      info: "84823364273@mail.ru",
       description: "Ответим в течение часа",
     },
     {
       icon: "MapPin",
-      title: "Адрес",
-      info: "г. Тверь, ул. Примерная, д. 1",
+      title: "Юридический адрес",
+      info: "171162, Тверская область, г. о. Вышневолоцкий, г. Вышний Волочек, ул. Парижской Коммуны, д. 43/46",
       description: "Офис и диспетчерская",
     },
     {
-      icon: "Clock",
-      title: "Режим работы",
-      info: "24/7",
-      description: "Всегда на связи",
+      icon: "Building",
+      title: "Руководство",
+      info: "Директор: Милюков М.А.",
+      description: "С 24 января 2022 года",
     },
   ];
 
@@ -81,7 +81,7 @@ const Contacts = () => {
                 В случае чрезвычайной ситуации звоните по номеру
               </p>
               <div className="text-3xl font-bold text-accent mb-4">
-                +7 (4822) 911-911
+                +7 482 336-42-73
               </div>
               <p className="text-sm text-muted-foreground">
                 Диспетчерская служба работает круглосуточно
@@ -93,6 +93,83 @@ const Contacts = () => {
 
       <ContactForm />
 
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-primary mb-4">
+              Реквизиты и информация о компании
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Частное охранное предприятие "Защита"
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="p-6">
+              <CardContent className="p-0">
+                <h3 className="font-semibold text-lg mb-4 text-primary">
+                  Руководство
+                </h3>
+                <div className="space-y-3">
+                  <div>
+                    <span className="font-medium">Учредитель:</span>
+                    <p className="text-muted-foreground">
+                      Федорова Надежда Жановна
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      с 4 мая 2011 года
+                    </p>
+                  </div>
+                  <div>
+                    <span className="font-medium">Директор:</span>
+                    <p className="text-muted-foreground">
+                      Милюков Михаил Алексеевич
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      с 24 января 2022 года
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="p-6">
+              <CardContent className="p-0">
+                <h3 className="font-semibold text-lg mb-4 text-primary">
+                  Реквизиты
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>
+                      <span className="font-medium">ИНН:</span> 6908004716
+                    </div>
+                    <div>
+                      <span className="font-medium">КПП:</span> 690801001
+                    </div>
+                  </div>
+                  <div>
+                    <span className="font-medium">ОГРН:</span> 1026901602672
+                  </div>
+                  <div>
+                    <span className="font-medium">Расчетный счет:</span>
+                    <br />
+                    40702810063310000959
+                  </div>
+                  <div>
+                    <span className="font-medium">Банк:</span>
+                    <br />
+                    ТВЕРСКОЕ ОТДЕЛЕНИЕ N8607 ПАО СБЕРБАНК, г. Тверь
+                  </div>
+                  <div>
+                    <span className="font-medium">БИК:</span> 042809679
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-muted/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -100,7 +177,7 @@ const Contacts = () => {
               Наше расположение
             </h2>
             <p className="text-lg text-muted-foreground">
-              Центральный офис в Твери с выездом по всей области
+              Центральный офис в Вышнем Волочке с выездом по всей области
             </p>
           </div>
 
@@ -115,7 +192,8 @@ const Contacts = () => {
                 Интерактивная карта
               </p>
               <p className="text-sm text-muted-foreground">
-                г. Тверь, ул. Примерная, д. 1
+                171162, Тверская область, г. о. Вышневолоцкий, г. Вышний
+                Волочек, ул. Парижской Коммуны, д. 43/46
               </p>
             </div>
           </div>

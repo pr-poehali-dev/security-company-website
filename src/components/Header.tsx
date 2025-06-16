@@ -51,9 +51,15 @@ const Header = () => {
             >
               Контакты
             </Link>
-            <Button size="sm" className="bg-accent hover:bg-accent/90">
-              Заказать охрану
-            </Button>
+            <div className="flex items-center space-x-4">
+              <div className="hidden lg:flex items-center space-x-2 text-sm text-muted-foreground">
+                <Icon name="Phone" size={16} />
+                <span>+7 482 336-42-73</span>
+              </div>
+              <Button size="sm" className="bg-accent hover:bg-accent/90">
+                Заказать охрану
+              </Button>
+            </div>
           </nav>
 
           <Button

@@ -105,8 +105,9 @@ const ContactForm = () => {
                 <div className="flex items-start space-x-4">
                   <Icon name="Phone" className="text-accent mt-1" size={20} />
                   <div>
-                    <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-muted-foreground">+7 (4822) 00-00-00</p>
+                    <h3 className="font-semibold mb-1">Телефоны</h3>
+                    <p className="text-muted-foreground">+7 482 336-42-73</p>
+                    <p className="text-muted-foreground">+7 800 250-42-73</p>
                     <p className="text-sm text-muted-foreground">
                       Круглосуточно
                     </p>
@@ -121,9 +122,7 @@ const ContactForm = () => {
                   <Icon name="Mail" className="text-accent mt-1" size={20} />
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">
-                      info@zashchita-tver.ru
-                    </p>
+                    <p className="text-muted-foreground">84823364273@mail.ru</p>
                   </div>
                 </div>
               </CardContent>
@@ -134,13 +133,54 @@ const ContactForm = () => {
                 <div className="flex items-start space-x-4">
                   <Icon name="MapPin" className="text-accent mt-1" size={20} />
                   <div>
-                    <h3 className="font-semibold mb-1">Адрес</h3>
+                    <h3 className="font-semibold mb-1">Юридический адрес</h3>
                     <p className="text-muted-foreground">
-                      г. Тверь, ул. Примерная, д. 1
+                      171162, Тверская область, г. о. Вышневолоцкий, г. Вышний
+                      Волочек, ул. Парижской Коммуны, д. 43/46
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Работаем по всей Тверской области
                     </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold mb-4 text-primary">
+                  Реквизиты организации
+                </h3>
+                <div className="space-y-3 text-sm">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>
+                      <span className="font-medium">ИНН:</span>
+                      <p className="text-muted-foreground">6908004716</p>
+                    </div>
+                    <div>
+                      <span className="font-medium">КПП:</span>
+                      <p className="text-muted-foreground">690801001</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span className="font-medium">ОГРН:</span>
+                    <p className="text-muted-foreground">1026901602672</p>
+                  </div>
+                  <div>
+                    <span className="font-medium">Расчетный счет:</span>
+                    <p className="text-muted-foreground">
+                      40702810063310000959
+                    </p>
+                  </div>
+                  <div>
+                    <span className="font-medium">Банк:</span>
+                    <p className="text-muted-foreground">
+                      ТВЕРСКОЕ ОТДЕЛЕНИЕ N8607 ПАО СБЕРБАНК, г. Тверь
+                    </p>
+                  </div>
+                  <div>
+                    <span className="font-medium">БИК:</span>
+                    <p className="text-muted-foreground">042809679</p>
                   </div>
                 </div>
               </CardContent>
